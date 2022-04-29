@@ -1,0 +1,18 @@
+::v-deep {
+  .el-table .warning-row {
+    background: #f0f5ff;
+  }
+
+  .el-table .success-row {
+    background: #c2d6ff;
+  }
+}
+
+.delete {
+  color: #316ce6;
+  text-decoration: underline;
+}
+
+.delete:hover {
+  cursor: pointer;
+}

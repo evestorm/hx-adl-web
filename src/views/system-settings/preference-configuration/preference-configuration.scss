@@ -1,0 +1,46 @@
+.app-container {
+  position: relative;
+  width: 96%;
+  min-height: calc(100vh - 228px);
+  margin: 30px auto 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(28, 82, 193, 0.1);
+}
+
+::v-deep {
+  .el-form-item__content > button {
+    width: 90px;
+    height: 32px;
+    margin-left: 30px;
+    color: #316ce6;
+    border: 1px solid #316ce6;
+  }
+}
+
+.el-button-container {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  display: flex;
+  width: 18%;
+  transform: translateX(-50%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 120px;
+  height: 36px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 18px;
+}
+
+.cancel {
+  background: linear-gradient(0deg, #f59913 0%, #ffcb7f 100%);
+}
+
+.save {
+  background: linear-gradient(0deg, #326de6 0%, #76a0f8 100%);
+}

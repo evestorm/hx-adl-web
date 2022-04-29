@@ -1,0 +1,91 @@
+// 基础色
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// 自定义变量
+
+// 主题色
+$bgColor: #f4f4f4; // 背景色
+$fontColor: #333; // 常规字体色
+
+// 导航栏
+$hamburgerBg: #0959de; // TODO：汉堡菜单背景色 （暂时没用过）
+$hamburgerBgHover: #0959de; // TODO：汉堡菜单悬停色（暂时没用过）
+
+// 杂色
+// $noise: url(data:image/png;base64,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);
+// 杂色地址：https://i.imgur.com/0Ac5PXg.png
+$noise: url(https://hxtms.obs.cn-south-1.myhuaweicloud.com/adl/common-img/noise.png);
+// tagView
+$tagBgActive: #316ce6;
+$tagFontColor: #fff;
+
+$navBgColor: #fff; // 导航栏背景色
+$navRightMenuItemFontColor: #5a5e66; // 右侧菜单字体色
+$navRightMenuDropdownBorderColor: #4ba2ff; // 右侧菜单边框色
+$navRightMenuDropdownBgColor: #56aaff; // 右侧菜单背景色
+$navRightMenuDropdownFontColor: #fff; // 右侧菜单下拉列表字体色
+
+// 表格
+$tableBgColor: #fff;
+
+// 消息弹窗
+$messageBoxBorderColor: #1565b8;
+$messageBoxBtnBorderColor: #2580eb;
+$messageBoxBtnBorderColorActive: #0b3d72;
+
+// 侧边栏
+$logoBg: linear-gradient(to right, rgba(26, 102, 223, 0.8), rgba(52, 106, 232, 0.8)); // 侧边栏 logo 背景色
+$menuText: #fff; // 菜单字体normal颜色
+$menuHoverText: #fff; // 菜单字体hover颜色
+$menuActiveText: #fff; // 菜单字体active颜色
+
+$menuBg: linear-gradient(to bottom, rgba(46, 109, 230, 0.8), rgba(52, 106, 232, 0.8)); // 侧边栏菜单normal背景色
+$menuHoverBg: rgba(255, 255, 255, 0.1); // 侧边栏菜单hover背景色
+$menuActiveBg: rgba(255, 255, 255, 0.3); // 侧边栏菜单active背景色
+$menuBorderBg: transparent; // 侧边栏菜单右侧边框颜色
+
+$subMenuText: $menuText; // 子菜单字体normal颜色
+$subMenuParentActiveText: $menuText; // 子菜单的外层父菜单的字体active颜色
+$subMenuHoverText: $menuHoverText; // 子菜单字体hover颜色
+$subMenuActiveText: $menuActiveText; // 子菜单字体active颜色 https://github.com/ElemeFE/element/issues/12951
+
+$subMenuBg: rgba(255, 255, 255, 0); // 子菜单normal背景色
+$subMenuParentActiveBg: $menuHoverBg; // 子菜单高亮状态下，父菜单背景色
+$subMenuHoverBg: $menuActiveBg; // 子菜单hover背景色
+$subMenuActiveBg: $menuActiveBg; // 子菜单active背景色
+
+$sideBarWidth: 300px; // 侧边栏宽度
+
+// switch 开关样式
+$switchBg: #8b8b8b;
+$switchActiveBg: #0a75ff;
+
+$sw-xs: 0;
+$sw-sm: 576px;
+$sw-md: 768px;
+$sw-lg: 992px;
+$sw-xl: 1200px;
+$sw-xxl: 1400px;
+$sw-xxxl: 1920px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHoverBg;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHoverBg;
+  sideBarWidth: $sideBarWidth;
+  switchBg: $switchBg;
+  switchActiveBg: $switchActiveBg;
+}
